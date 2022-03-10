@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Makhura Foods</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="css/cart.css" />
+</head>
+
+<body>
+    <button class="btn  toggle-form btn-outline-primary">open form</button>
+    <div class="overlay__container overlay-closed">
+
+        <div class="options">
+            <div class="close"><span class="btn-close"></span></div>
+            <form class="form">
+                <div class="form__heading">Get discount</div>
+                <div class="check__group">
+                    <div class="form__group">
+                        <input type="checkbox" name="discountYes" id="discountYes" checked />
+                        <label for="discountYes" class="form__label">Yes</label>
+                    </div>
+                    <div class="form__group">
+                        <input type="checkbox" name="discountNo" id="discountNo" />
+                        <label for="discountNo" class="form__label">No</label>
+                    </div>
+                </div>
+                <div class="form__heading">How do you want your products delivered ?</div>
+                <div class="radio__group">
+                    <div class="form__group">
+                        <input type="radio" name="delivery" id="deliveryCollection" />
+                        <label for="deliveryCollection" class="form__label">Collection</label>
+                    </div>
+                    <div class="form__group">
+                        <input type="radio" name="delivery" id="delivery" />
+                        <label for="delivery" class="form__label">delivered</label>
+                    </div>
+                </div>
+                <div class="form__group">
+                    <select class="delivery__options">
+                        <option value="takealot">Choose your delivery option</option>
+                    <option value="takealot">Takealot</option>
+                    <option value="mrd">Mr D</option>
+                    <option value="uberEats">Uber eats</option>
+                </select>
+                </div>
+
+                <div type="button" class="btn btn-outline-success">submit</div>
+            </form>
+        </div>
+    </div>
+    <div class="cart">
+        <div class="cart__products-list">
+            <div class="cart__heading">products</div>
+            <div class="cart__heading">price</div>
+            <div class="cart__heading">qty</div>
+            <div class="cart__heading">total</div>
+        </div>
+        <div class="cart__checkout">
+            <div class="cart__checkout-info">
+                <h4 class="cart__checkout-total">TOTAL : R1000,00</h4>
+                <button class="cart__btn-checkout">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="js/cart.js" async defer></script>
+</body>
+
+</html>

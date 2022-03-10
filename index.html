@@ -1,0 +1,265 @@
+<!Doctype <!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Makhura Foods</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="logo">
+        <img src="images/logo.png" alt="logo picture" class="logo__picture">
+        <p class="logo__text"><span class="color-secondary">Makhura </span>Foods</p>
+    </div>
+    <main>
+
+        <!--HOME PAGE BANNER AND ALL ELEMENTS CONTAINED IN IT-->
+        <section class="banner">
+
+            <div class="center-content">
+                <!--BEGINNING OF NAVIGATIN BAR -->
+                <div class="banner__menu">
+                    <ul class="banner__menu-list banner__menu-list--left">
+
+                        <li class="banner__menu-list-item" id="menu">
+                            <a class="banner__menu-link  color-tertiary bg-tertiary" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-3x3-gap-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z" />
+                                </svg> Categories
+                            </a>
+                            <ul class="innerMenu closed">
+                                <li>Pizza</li>
+                                <li>Steak</li>
+                                <li>Chicken</li>
+                                <li>Fish</li>
+                                <li>Pasta</li>
+                            </ul>
+                        </li>
+                        <li class="banner__menu-list-item"><a class="banner__menu-link" href="/cart.html">View Cart</a></li>
+                        <li class="banner__menu-list-item"><a class="banner__menu-link" href="#">Our Branches</a></li>
+                        <li class="banner__menu-list-item"><a class="banner__menu-link" href="#">Deals</a></li>
+                        <li class="banner__menu-list-item"><a class="banner__menu-link" href="#">Contact Us</a></li>
+                        <li class="banner__menu-list-item"><a class="banner__menu-link" href="#">Block</a></li>
+
+                    </ul>
+                    <ul class="banner__menu-list banner__menu-list--right">
+                        <li class="banner__menu-list-item  ">
+                            <a class="banner__menu-link bg-tertiary color-tertiary" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                    <path fill-rule="evenodd"
+                                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                                </svg> profile
+                            </a>
+                        </li>
+                        <li class="banner__menu-list-item ">
+                            <a class="banner__menu-link bg-tertiary color-tertiary" href="/cart.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-check" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z" />
+                                    <path
+                                        d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                                </svg> <span id="card">0</span>
+                            </a>
+                        </li>
+
+
+
+                    </ul>
+                </div>
+                <!--END NAVIGATIN BAR ON HOME PAGE-->
+            </div>
+            <!--START CONTENT CONTAINED ON HOME PAGE BANNER IMAGE-->
+            <div class="banner-contents">
+
+
+
+                <div class="banner-contents__copy">
+                    <div class="banner-contents__info">
+                        <div class="banner-contents__discount">Get up to 35% off</div>
+                    </div>
+                    <h1> Everyday fresh food!</h1>
+                    <p>home made ,prepared with love</p>
+                    <button class="btn btn-options">Delivery options</button>
+                </div>
+                <div class="banner-contents__picture">
+                    <img src="images/meal.jpg" alt="shared meal">
+                </div>
+
+            </div>
+            <!--END CONTENT CONTAINED ON HOME PAGE BANNER IMAGE-->
+
+
+        </section>
+        <!--END OF HOME PAGE BANNER -->
+    </main>
+    <!--START HOME PAGE GRID  RESTURANT MENU OFFERED -->
+    <section class="food-grid">
+
+        <div class="food-grid__container">
+            <div class="food-grid__item">
+                <img src="images/grocery.jpg" alt="" class="food-grid__picture">
+                <p class="food-grid__product">grocery combo</p>
+                <p class="food-grid__product-price">R500,00</p>
+                <a href="product.html?img=grocery.jpg&name=grocery-combo&price=R500.00" class="food-grid__add-card">View Details</a>
+                <button class="btn-cart">cart</button>
+
+            </div>
+            <div class="food-grid__item">
+                <img src="images/pizza-2.jpg" alt="" class="food-grid__picture">
+                <p class="food-grid__product">Pizza</p>
+                <p class="food-grid__product-price">R205,00</p>
+                <a href="product.html?img=pizza-2.jpg&name=Tripplle-decker-pizzar&price=R205.00" class="food-grid__add-card">View Details</a>
+                <button class="btn-cart">cart</button>
+
+            </div>
+            <div class="food-grid__item">
+                <img src="images/sandwitch.jpg" alt="" class="food-grid__picture">
+                <p class="food-grid__product">Sandwitch</p>
+                <p class="food-grid__product-price">R42,50</p>
+                <a href="product.html?img=sandwitch.jpg&name=Sandwitch&price=R42.00" class="food-grid__add-card">View Details</a>
+                <button class="btn-cart">cart</button>
+
+            </div>
+            <div class="food-grid__item">
+                <img src="images/burger-1.jpg" alt="" class="food-grid__picture">
+                <p class="food-grid__product">Cheese Burger</p>
+                <p class="food-grid__product-price">R80,00</p>
+                <a href="product.html?img=burger-1.jpg&name=Cheese Burder&price=R80.00" class="food-grid__add-card">View Details</a>
+                <button class="btn-cart">cart</button>
+
+            </div>
+            <div class="food-grid__item">
+                <img src="images/chicken.jpg" alt="" class="food-grid__picture">
+                <p class="food-grid__product">Grilled Chicken</p>
+                <p class="food-grid__product-price">R300,99</p>
+                <a href="product.html?img=chicken.jpg&name=Fried-Chicken&price=R300.00" class="food-grid__add-card">View Details</a>
+                <button class="btn-cart">cart</button>
+
+            </div>
+
+            <div class="food-grid__item">
+                <img src="images/pasta-1.jpg" alt="" class="food-grid__picture">
+                <p class="food-grid__product">Pasta</p>
+                <p class="food-grid__product-price">R104,50</p>
+                <a href="product.html?img=pasta-1.jpg&name=Pasta&price=R104.00" class="food-grid__add-card">View Details</a>
+                <button class="btn-cart">cart</button>
+
+            </div>
+            <div class="food-grid__item">
+                <img src="images/salad-1.jpg" alt="" class="food-grid__picture">
+                <p class="food-grid__product">Salad</p>
+                <p class="food-grid__product-price">R40,99</p>
+                <a href="product.html?img=salad-1.jpg&name=Salad&price=R40.00" class="food-grid__add-card">View Details</a>
+                <button class="btn-cart">cart</button>
+
+            </div>
+            <div class="food-grid__item">
+                <img src="images/steak-1.jpg" alt="" class="food-grid__picture">
+                <p class="food-grid__product">Steak and Chips</p>
+                <p class="food-grid__product-price">R300,00</p>
+                <a href="product.html?img=steak-1.jpg&name=Steak&Chips&price=R300.00" class="food-grid__add-card">View Details</a>
+                <button class="btn-cart">cart</button>
+
+            </div>
+            <div class="food-grid__item">
+                <img src="images/cake-1.jpg" alt="" class="food-grid__picture">
+                <p class="food-grid__product">Cake</p>
+                <p class="food-grid__product-price">R90,00</p>
+                <a href="product.html?img=cake-1.jpg&name=Straberry-Cake&price=R90.00" class="food-grid__add-card">View Details</a>
+                <button class="btn-cart">cart</button>
+
+            </div>
+            <div class="food-grid__item">
+                <img src="images/chicken-2.jpg" alt="" class="food-grid__picture">
+                <p class="food-grid__product">Chicken Gizzard</p>
+                <p class="food-grid__product-price">R30,00</p>
+                <a href="product.html?img=chicken-2.jpg&name=Grilled-Chicken&price=R230.00" class="food-grid__add-card">View Details</a>
+                <button class="btn-cart">cart</button>
+
+            </div>
+        </div>
+
+    </section>
+    <!--END HOME PAGE GRID  RESTURANT MENU OFFERED -->
+
+    <!--START OF OVERLAY OR MODAL FORM FOR INFORMATION ABOUT DISCOUNTS AND DELIVERY OPTIONS-->
+    <div class="overlay__container overlay-closed">
+
+        <div class="options">
+            <div class="close"><span class="btn-close"></span></div>
+            <form class="form">
+                <div class="form__heading">Get discount</div>
+                <div class="check__group">
+                    <div class="form__group">
+                        <input type="checkbox" name="discountYes" id="discountYes" checked />
+                        <label for="discountYes" class="form__label">Yes</label>
+                    </div>
+                    <div class="form__group">
+                        <input type="checkbox" name="discountNo" id="discountNo" />
+                        <label for="discountNo" class="form__label">No</label>
+                    </div>
+                </div>
+                <div class="form__heading">How do you want your products delivered ?</div>
+                <div class="radio__group">
+                    <div class="form__group">
+                        <input type="radio" name="delivery" id="deliveryCollection" />
+                        <label for="deliveryCollection" class="form__label">Collection</label>
+                    </div>
+                    <div class="form__group">
+                        <input type="radio" name="delivery" id="delivery" />
+                        <label for="delivery" class="form__label">delivered</label>
+                    </div>
+                </div>
+                <div class="form__group">
+                    <select class="delivery__options">
+                        <option value="takealot">Choose your delivery option</option>
+                    <option value="takealot">Takealot</option>
+                    <option value="mrd">Mr D</option>
+                    <option value="uberEats">Uber eats</option>
+                </select>
+                </div>
+
+                <div type="button" class="btn btn-outline-success">submit</div>
+                <div type="button" class="btn btn-outline-info">confirm order</div>
+            </form>
+        </div>
+    </div>
+    <!--END OF OVERLAY FORM FOR INFORMATION ABOUT DISCOUNTS AND DELIVERY OPTIONS-->
+
+    <!--START OF THE DROP DOWN ACCORDION AT THE BOTTOM OF THE APGE -->
+    <section>
+        <ul class="accordion">
+            <li>
+                <a class="toggle" href=#>Our suppliers</a>
+                <p class="inner">
+                    We gett all our fruits and vegitable directly from local farms
+                </p>
+            </li>
+
+            <li>
+                <a class="toggle" href=#>Meet our Staff</a>
+                <p class="inner">
+                    qualified staff
+                </p>
+            </li>
+
+
+        </ul>
+    </section>
+    <!--END OF THE DROP DOWN ACCORDION AT THE BOTTOM OF THE APGE -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="js/main.js" async defer></script>
+</body>
+
+</html>

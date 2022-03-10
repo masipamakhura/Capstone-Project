@@ -1,0 +1,22 @@
+body {
+    padding: 10% 20%;
+}
+
+.product__picture img {
+    width: 900px;
+    height: auto;
+    max-height: 400px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.product__details-btn {
+    padding: 30px;
+}
